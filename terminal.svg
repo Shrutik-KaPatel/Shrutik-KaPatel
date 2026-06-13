@@ -1,0 +1,90 @@
+<svg width="640" height="272" viewBox="0 0 640 272" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .f { font-family: "Courier New", Courier, monospace; font-size: 13px; }
+      .prompt { fill: #00FFFF; }
+      .cmd    { fill: #FFFFFF; font-weight: bold; }
+      .arrow  { fill: #4A9EFF; }
+      .key    { fill: #8B9BB4; }
+      .val    { fill: #E2E8F0; }
+      .dim    { fill: #556070; }
+      .hi     { fill: #00FFFF; }
+      .blink  { animation: blink 1.1s step-end infinite; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      .r1 { animation: fi 0.3s 0.0s ease both; }
+      .r2 { animation: fi 0.3s 0.2s ease both; }
+      .r3 { animation: fi 0.3s 0.4s ease both; }
+      .r4 { animation: fi 0.3s 0.6s ease both; }
+      .r5 { animation: fi 0.3s 0.8s ease both; }
+      .r6 { animation: fi 0.3s 1.0s ease both; }
+      .r7 { animation: fi 0.3s 1.2s ease both; }
+      .r8 { animation: fi 0.3s 1.4s ease both; }
+      .r9 { animation: fi 0.3s 1.6s ease both; }
+      @keyframes fi { from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:translateY(0)} }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="640" height="272" rx="10" fill="#0D1117"/>
+
+  <!-- Title bar -->
+  <rect width="640" height="38" rx="10" fill="#161B22"/>
+  <rect y="22" width="640" height="16" fill="#161B22"/>
+  <line x1="0" y1="38" x2="640" y2="38" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Traffic lights -->
+  <circle cx="22" cy="19" r="6" fill="#FF5F57"/>
+  <circle cx="44" cy="19" r="6" fill="#FEBC2E"/>
+  <circle cx="66" cy="19" r="6" fill="#28C840"/>
+  <!-- X on red dot -->
+  <text x="22" y="23" text-anchor="middle" font-size="8" fill="#8B0000" opacity="0.6">&#x2715;</text>
+
+  <!-- Title -->
+  <text x="320" y="24" text-anchor="middle" font-family="Courier New, monospace" font-size="12" fill="#556070">shrutik@firmware: ~</text>
+
+  <!-- ROW 1: whoami command -->
+  <text class="f r1" x="20" y="68">
+    <tspan class="prompt">shrutik</tspan><tspan class="dim">@</tspan><tspan class="prompt">firmware</tspan><tspan class="dim">:</tspan><tspan class="hi">~</tspan><tspan class="dim">$ </tspan><tspan class="cmd">whoami</tspan>
+  </text>
+
+  <!-- ROW 2 -->
+  <text class="f r2" x="20" y="92">
+    <tspan class="arrow">  role      </tspan><tspan class="val">Embedded Firmware Engineer</tspan>
+  </text>
+
+  <!-- ROW 3 -->
+  <text class="f r3" x="20" y="112">
+    <tspan class="arrow">  degree    </tspan><tspan class="val">MEng EE · Carleton University, Ottawa</tspan>
+  </text>
+
+  <!-- ROW 4 -->
+  <text class="f r4" x="20" y="132">
+    <tspan class="arrow">  platform  </tspan><tspan class="hi">STM32F407</tspan><tspan class="dim"> · </tspan><tspan class="hi">ARM Cortex-M4</tspan><tspan class="dim"> · </tspan><tspan class="hi">C</tspan>
+  </text>
+
+  <!-- ROW 5 -->
+  <text class="f r5" x="20" y="152">
+    <tspan class="arrow">  protocols </tspan><tspan class="val">UART/DMA · SPI · I2C · PWM · ADC/DAC</tspan>
+  </text>
+
+  <!-- ROW 6: blank -->
+  <text class="f r6" x="20" y="176">
+    <tspan class="prompt">shrutik</tspan><tspan class="dim">@</tspan><tspan class="prompt">firmware</tspan><tspan class="dim">:</tspan><tspan class="hi">~</tspan><tspan class="dim">$ </tspan><tspan class="cmd">echo $STATUS</tspan>
+  </text>
+
+  <!-- ROW 7 -->
+  <text class="f r7" x="20" y="200">
+    <tspan class="hi">  Open to embedded firmware roles</tspan><tspan class="dim"> · Ottawa ON · Remote/Relocation OK</tspan>
+  </text>
+
+  <!-- ROW 8: final prompt -->
+  <text class="f r8" x="20" y="224">
+    <tspan class="prompt">shrutik</tspan><tspan class="dim">@</tspan><tspan class="prompt">firmware</tspan><tspan class="dim">:</tspan><tspan class="hi">~</tspan><tspan class="dim">$ </tspan>
+  </text>
+
+  <!-- Blinking cursor block -->
+  <rect class="r9 blink" x="118" y="212" width="8" height="14" fill="#00FFFF"/>
+
+  <!-- Bottom padding line -->
+  <text class="f" x="20" y="252" opacity="0"> </text>
+</svg>
