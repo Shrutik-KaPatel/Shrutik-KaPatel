@@ -5,18 +5,13 @@
 
 <div align="center">
 
-<!-- Animated SVG terminal banner -->
+<!-- Animated typing header -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Shrutik+KaPatel;MEng+Electrical+Engineering;Embedded+Firmware+%7C+Bare-Metal+STM32;C+%7C+ARM+Cortex-M4+%7C+RTOS" alt="Typing SVG" />
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  $ whoami                                               │
-│  > MEng EE Graduate · Carleton University, Ottawa       │
-│  > Embedded Firmware Engineer                           │
-│  > Bare-metal STM32F407 · ARM Cortex-M4 · C            │
-│  $ status: actively seeking embedded / firmware roles   │
-└─────────────────────────────────────────────────────────┘
-```
+<br/>
+
+<!-- Animated terminal window -->
+<img src="terminal.svg" alt="terminal" width="640"/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-shrutik--kapatel.github.io-00FFFF?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=00FFFF)](https://shrutik-kapatel.github.io)
 [![Email](https://img.shields.io/badge/Email-ka.patelshrutik37%40gmail.com-00FFFF?style=for-the-badge&labelColor=0D1117&logo=gmail&logoColor=00FFFF)](mailto:ka.patelshrutik37@gmail.com)
