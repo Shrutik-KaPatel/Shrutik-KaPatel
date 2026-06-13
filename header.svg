@@ -1,30 +1,56 @@
 <svg width="500" height="80" viewBox="0 0 500 80" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      .f { font-family: "Courier New", Courier, monospace; font-weight: bold; }
-      .blink { animation: blink 1.1s step-end infinite; }
-      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-      .t1 { animation: cycle 6s 0s step-end infinite; }
-      .t2 { animation: cycle 6s 1.2s step-end infinite; }
-      .t3 { animation: cycle 6s 2.4s step-end infinite; }
-      .t4 { animation: cycle 6s 3.6s step-end infinite; }
-      .t5 { animation: cycle 6s 4.8s step-end infinite; }
-    </style>
     <filter id="shadow">
       <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/>
     </filter>
   </defs>
 
-  <!-- Dark background box -->
+  <!-- Dark background -->
   <rect x="1" y="1" width="498" height="78" rx="8" fill="#0D1117"
         stroke="#21262D" stroke-width="1" filter="url(#shadow)"/>
-
-  <!-- Subtle cyan border glow -->
+  <!-- Cyan border glow -->
   <rect x="1" y="1" width="498" height="78" rx="8" fill="none"
-        stroke="#00FFFF" stroke-width="1" opacity="0.2"/>
+        stroke="#00FFFF" stroke-width="1" opacity="0.25"/>
 
-  <!-- Centered typing text via foreignObject isn't supported; use image inside instead -->
-  <!-- We just host the typing SVG as an image centered in the box -->
-  <image href="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;pause=1200&amp;color=00FFFF&amp;center=true&amp;vCenter=true&amp;width=460&amp;height=60&amp;lines=Shrutik+KaPatel;Embedded+Firmware+Engineer;Bare-Metal+STM32+%7C+ARM+Cortex-M4;UART+%7C+SPI+%7C+I2C+%7C+DMA;Open+to+Firmware+Roles"
-        x="20" y="10" width="460" height="60"/>
+  <text x="250" y="50" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, Courier, monospace" font-size="19" font-weight="bold" fill="#00FFFF"
+        opacity="0">
+    <animate attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.0000;0.1864;0.2000"
+      dur="11.0s" repeatCount="indefinite"/>
+    Shrutik KaPatel
+  </text>  <text x="250" y="50" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, Courier, monospace" font-size="19" font-weight="bold" fill="#00FFFF"
+        opacity="0">
+    <animate attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.2000;0.3864;0.4000"
+      dur="11.0s" repeatCount="indefinite"/>
+    Embedded Firmware Engineer
+  </text>  <text x="250" y="50" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, Courier, monospace" font-size="19" font-weight="bold" fill="#00FFFF"
+        opacity="0">
+    <animate attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.4000;0.5864;0.6000"
+      dur="11.0s" repeatCount="indefinite"/>
+    Bare-Metal STM32  |  ARM Cortex-M4
+  </text>  <text x="250" y="50" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, Courier, monospace" font-size="19" font-weight="bold" fill="#00FFFF"
+        opacity="0">
+    <animate attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.6000;0.7864;0.8000"
+      dur="11.0s" repeatCount="indefinite"/>
+    UART  |  SPI  |  I2C  |  DMA
+  </text>  <text x="250" y="50" text-anchor="middle" dominant-baseline="middle"
+        font-family="Courier New, Courier, monospace" font-size="19" font-weight="bold" fill="#00FFFF"
+        opacity="0">
+    <animate attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.8000;0.9864;1.0000"
+      dur="11.0s" repeatCount="indefinite"/>
+    Open to Firmware Roles
+  </text>
 </svg>
