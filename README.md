@@ -1,5 +1,5 @@
 <!-- ============================================================
-     SHRUTIK KAPATEL — GitHub Profile README
+     SHRUTIK KAPATEL - GitHub Profile README
      Terminal / embedded firmware aesthetic
      ============================================================ -->
 
@@ -39,14 +39,14 @@ typedef struct {
 
 Engineer_t shrutik = {
     .name     = "Shrutik KaPatel",
-    .degree   = "MEng Electrical Engineering — Carleton University",
+    .degree   = "MEng Electrical Engineering - Carleton University",
     .focus    = "Bare-metal firmware, digital hardware design",
     .platform = "STM32F407 (ARM Cortex-M4)",
     .status   = "Open to embedded firmware & hardware roles"
 };
 ```
 
-I write firmware close to the metal — register-level peripheral drivers, interrupt-driven architectures, and DMA pipelines. My work lives in C, on real hardware, without an OS getting in the way.
+I write firmware close to the metal - register-level peripheral drivers, interrupt-driven architectures, and DMA pipelines. My work lives in C, on real hardware, without an OS getting in the way.
 
 ---
 
@@ -94,7 +94,7 @@ Key work  : Register-level GPIO, UART/DMA, SPI, I2C, timer PWM
 Debug     : J-Link + logic analyzer validation
 Status    : [████████████████████] Active development
 ```
-> Full peripheral driver stack written from scratch against the reference manual. No abstraction layers — pure CMSIS and direct register writes.
+> Full peripheral driver stack written from scratch against the reference manual. No abstraction layers - pure CMSIS and direct register writes.
 
 ---
 
@@ -140,7 +140,7 @@ Status    : [████████████████████] Compl
 ```
 [IN PROGRESS] FreeRTOS task scheduling & semaphores
 [IN PROGRESS] Bare-metal DMA pipelines (STM32F4)
-[IN PROGRESS] Hardware debugging — J-Link, logic analyzer
+[IN PROGRESS] Hardware debugging - J-Link, logic analyzer
 [IN PROGRESS] Interrupt-driven driver architecture
 [NEXT]        Bootloader implementation (STM32)
 [NEXT]        CAN bus protocol
