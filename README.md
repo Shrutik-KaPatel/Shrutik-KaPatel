@@ -18,9 +18,9 @@
 └─────────────────────────────────────────────────────────┘
 ```
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-shrutik--kapatel.github.io-00FFFF?style=for-the-badge&logo=github&logoColor=black)](https://shrutik-kapatel.github.io)
-[![Email](https://img.shields.io/badge/Email-ka.patelshrutik37%40gmail.com-00FFFF?style=for-the-badge&logo=gmail&logoColor=black)](mailto:ka.patelshrutik37@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shrutik-kapatel)
+[![Portfolio](https://img.shields.io/badge/Portfolio-shrutik--kapatel.github.io-00FFFF?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=00FFFF)](https://shrutik-kapatel.github.io)
+[![Email](https://img.shields.io/badge/Email-ka.patelshrutik37%40gmail.com-00FFFF?style=for-the-badge&labelColor=0D1117&logo=gmail&logoColor=00FFFF)](mailto:ka.patelshrutik37@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00FFFF?style=for-the-badge&labelColor=0D1117&logo=linkedin&logoColor=00FFFF)](https://linkedin.com/in/shrutik-kapatel)
 
 </div>
 
@@ -180,8 +180,8 @@ PING shrutik (ka.patelshrutik37@gmail.com)
 → Reply from shrutik: Response time < 24h
 ```
 
-[![Portfolio](https://img.shields.io/badge/Visit%20Portfolio-%E2%86%92-00FFFF?style=for-the-badge)](https://shrutik-kapatel.github.io)
-[![Email](https://img.shields.io/badge/Send%20Email-%E2%86%92-00FFFF?style=for-the-badge)](mailto:ka.patelshrutik37@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Visit%20Portfolio-%E2%86%92-00FFFF?style=for-the-badge&labelColor=0D1117)](https://shrutik-kapatel.github.io)
+[![Email](https://img.shields.io/badge/Send%20Email-%E2%86%92-00FFFF?style=for-the-badge&labelColor=0D1117)](mailto:ka.patelshrutik37@gmail.com)
 
 <br/>
 
