@@ -5,8 +5,8 @@
 
 <div align="center">
 
-<!-- Animated typing header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00FFFF&center=true&vCenter=true&width=500&height=45&lines=Shrutik+KaPatel;Embedded+Firmware+Engineer;Bare-Metal+STM32+%7C+ARM+Cortex-M4;UART+%7C+SPI+%7C+I2C+%7C+DMA;Open+to+Firmware+Roles" alt="Typing SVG" />
+<!-- Header box with typing animation -->
+<img src="header.svg" alt="header" width="500"/>
 
 <br/>
 
