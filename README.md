@@ -54,31 +54,38 @@ I write firmware close to the metal - register-level peripheral drivers, interru
 
 <div align="center">
 
+<!-- COLOR SYSTEM:
+     Cyan  #00FFFF / labelColor=0D1117  — primary firmware skills (things you own)
+     Blue  #4A9EFF / labelColor=0D1117  — digital hardware
+     Slate #8B9BB4 / labelColor=1A1A2E  — toolchain / support
+     Dim   #3D4450 / labelColor=1A1A2E  — secondary / learning
+-->
+
 ### ⚙️ Core Platform
-![STM32](https://img.shields.io/badge/STM32F407-ARM%20Cortex--M4-00FFFF?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![C](https://img.shields.io/badge/C-Bare--Metal-00FFFF?style=flat-square&logo=c&logoColor=white)
-![ARM](https://img.shields.io/badge/ARM-Assembly-555?style=flat-square&logo=arm&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-Learning-yellow?style=flat-square)
+![STM32](https://img.shields.io/badge/STM32F407-ARM%20Cortex--M4-00FFFF?style=flat-square&labelColor=0D1117&logo=stmicroelectronics&logoColor=00FFFF)
+![C](https://img.shields.io/badge/C-Bare--Metal-00FFFF?style=flat-square&labelColor=0D1117&logo=c&logoColor=00FFFF)
+![ARM](https://img.shields.io/badge/ARM-Cortex--M4-00FFFF?style=flat-square&labelColor=0D1117&logo=arm&logoColor=00FFFF)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-In%20Progress-3D4450?style=flat-square&labelColor=1A1A2E&logoColor=white)
 
 ### 🔌 Protocols & Peripherals
-![UART](https://img.shields.io/badge/UART%2FDMA-Protocol-00FFFF?style=flat-square)
-![SPI](https://img.shields.io/badge/SPI-Protocol-00FFFF?style=flat-square)
-![I2C](https://img.shields.io/badge/I2C-Protocol-00FFFF?style=flat-square)
-![PWM](https://img.shields.io/badge/PWM-Timer-00FFFF?style=flat-square)
-![ADC](https://img.shields.io/badge/ADC%2FDAC-Analog-00FFFF?style=flat-square)
-![RS232](https://img.shields.io/badge/RS--232-Serial-555?style=flat-square)
-![MQTT](https://img.shields.io/badge/MQTT-Messaging-555?style=flat-square)
+![UART](https://img.shields.io/badge/UART%2FDMA-00FFFF?style=flat-square&labelColor=0D1117)
+![SPI](https://img.shields.io/badge/SPI-00FFFF?style=flat-square&labelColor=0D1117)
+![I2C](https://img.shields.io/badge/I2C-00FFFF?style=flat-square&labelColor=0D1117)
+![PWM](https://img.shields.io/badge/PWM-00FFFF?style=flat-square&labelColor=0D1117)
+![ADC](https://img.shields.io/badge/ADC%2FDAC-00FFFF?style=flat-square&labelColor=0D1117)
+![RS232](https://img.shields.io/badge/RS--232-00FFFF?style=flat-square&labelColor=0D1117)
+![MQTT](https://img.shields.io/badge/MQTT-00FFFF?style=flat-square&labelColor=0D1117)
 
 ### 🖥️ Digital Hardware
-![Verilog](https://img.shields.io/badge/Verilog-HDL-9B59B6?style=flat-square)
-![FPGA](https://img.shields.io/badge/FPGA-Digital%20Design-9B59B6?style=flat-square)
-![MIPS32](https://img.shields.io/badge/MIPS32-Pipelined%20CPU-9B59B6?style=flat-square)
+![Verilog](https://img.shields.io/badge/Verilog-HDL-4A9EFF?style=flat-square&labelColor=0D1117)
+![FPGA](https://img.shields.io/badge/FPGA-Digital%20Design-4A9EFF?style=flat-square&labelColor=0D1117)
+![MIPS32](https://img.shields.io/badge/MIPS32-Pipelined%20CPU-4A9EFF?style=flat-square&labelColor=0D1117)
 
 ### 🛠️ Debug & Toolchain
-![JLink](https://img.shields.io/badge/J--Link-JTAG%20Debug-333?style=flat-square)
-![Logic](https://img.shields.io/badge/Logic%20Analyzer-Waveform%20Debug-333?style=flat-square)
-![GCC](https://img.shields.io/badge/GCC%20ARM-Toolchain-333?style=flat-square&logo=gnu&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat-square&logo=git&logoColor=white)
+![JLink](https://img.shields.io/badge/J--Link-JTAG%20Debug-8B9BB4?style=flat-square&labelColor=1A1A2E)
+![Logic](https://img.shields.io/badge/Logic%20Analyzer-Waveform%20Debug-8B9BB4?style=flat-square&labelColor=1A1A2E)
+![GCC](https://img.shields.io/badge/GCC%20ARM-Toolchain-8B9BB4?style=flat-square&labelColor=1A1A2E&logo=gnu&logoColor=8B9BB4)
+![Git](https://img.shields.io/badge/Git-Version%20Control-8B9BB4?style=flat-square&labelColor=1A1A2E&logo=git&logoColor=8B9BB4)
 
 </div>
 
