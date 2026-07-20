@@ -167,20 +167,6 @@ Status    : [████████████████████] Compl
 
 ---
 
-## `$ ./stats.sh`
-
-<div align="center">
-
-![Shrutik's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shrutik-KaPatel&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&ring_color=00FFFF&v=1)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Shrutik-KaPatel&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&langs_count=6&v=1)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Shrutik-KaPatel&theme=radical&hide_border=true&background=0D1117&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&v=1)
-
-</div>
-
----
-
 ## `$ ping shrutik`
 
 <div align="center">
