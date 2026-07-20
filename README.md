@@ -112,7 +112,7 @@ Platform  : STM32F407 (FreeRTOS) + ESP32 gateway
 Lang      : C · Embedded AI
 Key work  : NanoEdge AI CNN classifier @ 400Hz (SPI+DMA), Gemini-powered fault explanations
 Debug     : Root-caused a silent stack overflow via live ST-LINK call-stack inspection
-Status    : [████████████████████] Featured · Active development
+Status    : [████████████████████] Featured · Complete
 ```
 > Edge-to-cloud predictive maintenance. On-device AI classifies healthy / blade-imbalance / obstruction states with zero network dependency on the critical path, while an ESP32 gateway logs to Google Sheets and generates plain-language fault explanations via Gemini. Validated across all 9 speed x class combinations on real hardware.
 
